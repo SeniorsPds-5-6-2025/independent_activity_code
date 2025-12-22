@@ -67,7 +67,6 @@
 
 <script>
 $(document).ready(function() {
-  // Audio toggle with fade effect
   $('#toggleAudio').click(function() {
     if ($('#audioPlayer').is(':hidden')) {
       $('#audioPlayer').fadeIn(500);
@@ -78,7 +77,6 @@ $(document).ready(function() {
     }
   });
 
-  // Video toggle with slide effect
   $('#toggleVideo').click(function() {
     if ($('#videoPlayer').is(':hidden')) {
       $('#videoPlayer').slideDown(600);
@@ -89,7 +87,6 @@ $(document).ready(function() {
     }
   });
 
-  // Image toggle with fade effect
   $('#toggleImage').click(function() {
     if ($('#impactImage').is(':hidden')) {
       $('#impactImage').fadeIn(500).delay(100);
@@ -100,7 +97,6 @@ $(document).ready(function() {
     }
   });
 
-  // Add hover animation to article elements
   $('article').hover(
     function() {
       $(this).animate({ borderLeft: '5px solid #316fd3' }, 300);
@@ -110,7 +106,6 @@ $(document).ready(function() {
     }
   );
 
-  // Add fade-in animation to aside on page load
   $('aside').delay(300).fadeIn(800);
 });
 </script>
