@@ -139,6 +139,32 @@ footer p {
   color: #bbb;
 }
 
+.media-btn {
+  background-color: #316fd3;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 15px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  font-size: 14px;
+}
+
+.media-btn:hover {
+  background-color: #2557b0;
+  transform: scale(1.05);
+}
+
+.media-btn:active {
+  transform: scale(0.98);
+}
+
+audio, video {
+  border-radius: 3px;
+}
+
 @media (max-width: 768px) {
   nav ul {
     flex-direction: column;
